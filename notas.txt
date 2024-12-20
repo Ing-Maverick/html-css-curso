@@ -1,1 +1,11 @@
 NOTAS: 
+FORMULARIOS ATRIBUTOS
+
+placeholder -> aparece dentro del input
+name ->para saber donde se guradara la info
+required -> sino esta lleno no se envia
+
+
+PROPIEDADES HTML
+
+strong ->destacar en vez de bold

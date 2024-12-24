@@ -1,22 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-around; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no caben en una fila */
+}
 .card{
-    background-color: rgb(177, 224, 224);
+    width: 300px;
+    text-align: center;
     padding: 20px;
-    width: 400px;
-    margin: auto;
-    border: 5px solid blue;
+    border: 3px solid #000;
     border-radius: 10px;
+    background-color: #dacfcf;
+    box-shadow: 0 0 20px #000;
+    margin-top: 40px;
 }
 
-h1{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.imagen{
+    width: 50%;
+    filter: drop-shadow(0 0 5px #003);
+
 }
 
-h2{
-    text-align: center;
+.titulo{
+    text-transform: uppercase;
+    margin-top:10px;
+
 }
 
-p{
-    font-style: italic;
+
+.contenido{
     text-align: justify;
 }
+

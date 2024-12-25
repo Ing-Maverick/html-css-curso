@@ -1,33 +1,60 @@
-.container {
-    display: flex;
-    justify-content: space-around; /* Espacio entre las tarjetas */
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no caben en una fila */
+body{
+    margin: 0;
+    color: #eee;
+    background-color: #222;
 }
-.card{
-    width: 300px;
+
+h2{
     text-align: center;
-    padding: 20px;
-    border: 3px solid #000;
-    border-radius: 10px;
-    background-color: #dacfcf;
-    box-shadow: 0 0 20px #000;
-    margin-top: 40px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
-.imagen{
-    width: 50%;
-    filter: drop-shadow(0 0 5px #003);
-
-}
-
-.titulo{
-    text-transform: uppercase;
-    margin-top:10px;
+form{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 55px #0009;
+    margin-top: 50px;
 
 }
 
-
-.contenido{
-    text-align: justify;
+div{
+    padding: 6px 20px;
 }
+
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    /* border: none; */
+    background-color: transparent;
+    color: #eee;
+
+}
+
+textarea{
+    resize: none;
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 200px; 
+    width:100%;
+    text-transform:initial;
+
+}
+
+.terminos{
+    width: auto;
+    height: 10px;
+}
+
+select{
+    width: 100%;
+    background-color: #222;
+    color: #eee;
+    padding: 6px 10px;
+
+}
+
 
